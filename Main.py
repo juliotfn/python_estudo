@@ -20,10 +20,10 @@
 # testeBasico.testaInput()
 # testeBasico.achaLetraEmPalavraScreta("a")
 #----------------------------------------------------------------
-# from Classes.sequencia import Sequencia
-#
-# testeSequencia = Sequencia()
-#
+from Classes.sequencia import Sequencia
+
+testeSequencia = Sequencia()
+
 # testeSequencia.pegaUltimoPenultimo()
 # testeSequencia.letrasPalavra("melão")
 # testeSequencia.pegaSegundoTerceiroPorFatiamento()
@@ -31,6 +31,7 @@
 # testeSequencia.criarTupla()
 # testeSequencia.criarOperarConjuntos()
 # testeSequencia.criarOperarDicionario()
+# print(testeSequencia.retornaAlgoParaCadaPosicaoDeUmaListaOuString())
 #----------------------------------------------------------------
 # from Classes.funcao import Funcao
 #
@@ -55,4 +56,8 @@
 from Classes.arquivo import Arquivo
 
 testeArquivo = Arquivo()
+
+# testeArquivo.escrever()
+# testeArquivo.ler()
+# testeArquivo.lerComWith()
 

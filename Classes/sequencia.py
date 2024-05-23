@@ -65,6 +65,8 @@ class Sequencia:
         print(pessoa.values())
         print(a)
 
-
+    def retornaAlgoParaCadaPosicaoDeUmaListaOuString(self):
+        palavra_secreta = 'banana'
+        return ['_' for letra in palavra_secreta] # Retorna ['_', '_', '_', '_', '_', '_']
 
 
