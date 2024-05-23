@@ -1,0 +1,21 @@
+from Classes.basico import Basico
+
+testeBasico = Basico(10)
+
+print(testeBasico.escreveParImpar())
+testeBasico.forRangeStep()
+testeBasico.forItemTupla()
+testeBasico.forChaveValor()
+testeBasico.potenciacao()
+testeBasico.divisaoInteira()
+testeBasico.multiplicacaoTexto()
+testeBasico.printDuasCasasDecimais()
+testeBasico.usoBool()
+testeBasico.usoIs()
+testeBasico.usoInt()
+testeBasico.embaralhaLista()
+testeBasico.escolheItemAleatorio()
+print(testeBasico.geraNumero(1, 10, 1))
+testeBasico.usoWhile()
+testeBasico.testaInput()
+testeBasico.achaLetraEmPalavraScreta("a")
